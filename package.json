@@ -1,0 +1,15 @@
+{
+  "name": "@pledgeit/docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PledgeIt/docs.git",
+  "author": "Josh Lasdin <joshlasdindesign@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aglio": "^2.3.0"
+  },
+  "scripts": {
+    "widgets": "aglio -i api/widgets.md --themeVariables streak --themeFullWidth true -o build/widgets.html",
+    "dev": "aglio -i api/widgets.md -s --themeVariables streak --themeFullWidth true"
+  }
+}
