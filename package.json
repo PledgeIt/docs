@@ -9,7 +9,9 @@
     "aglio": "^2.3.0"
   },
   "scripts": {
-    "widgets": "aglio -i api/widgets.md --themeVariables streak --themeFullWidth true -o docs/widgets.html",
-    "dev": "aglio -i api/widgets.md -s --themeVariables streak --themeFullWidth true"
+    "api": "aglio --themeVariables streak --themeFullWidth true",
+    "widgets": "yarn api -i api/widgets.md -o docs/widgets.html",
+    "dev": "yarn widgets -s",
+    "deploy": "yarn widgets"
   }
 }

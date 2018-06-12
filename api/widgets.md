@@ -1,10 +1,10 @@
 FORMAT: 1A
+HOST: https://pledgeit.org/api-public/widgets
 
 # Pledge It API
-This is a collection of publicly available endpoints.
+A collection of useful endpoints for creating external widgets for Pledge It site content.
 
-**Base URL**
-`https://pledgeit.org/api-public/widgets`
+**Base URL** `https://pledgeit.org/api-public/widgets`
 
 ## Group Public Widgets
 
